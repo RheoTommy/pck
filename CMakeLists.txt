@@ -1,0 +1,20 @@
+cmake_minimum_required(VERSION 3.16)
+project(PCK)
+
+set(CMAKE_CXX_STANDARD 14)
+set(CMAKE_CXX_FLAGS "-g -D=__LOCAL -Wall -O2 -fsanitize=undefined")
+
+add_executable(PCK main.cpp)
+
+add_executable(a src/a.cpp)
+add_executable(b src/b.cpp)
+add_executable(c src/c.cpp)
+add_executable(d src/d.cpp)
+add_executable(e src/e.cpp)
+add_executable(f src/f.cpp)
+add_executable(g src/g.cpp)
+add_executable(h src/h.cpp)
+add_executable(i src/i.cpp)
+add_executable(j src/j.cpp)
+add_executable(k src/k.cpp)
+add_executable(l src/l.cpp)
